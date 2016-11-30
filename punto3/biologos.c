@@ -18,10 +18,10 @@ int main()
 	double *gamma=malloc(N*sizeof(double));
 	double *delta=malloc(N*sizeof(double));
 
-	alph[0]=drand48();
-	beta[0]=drand48();
-	gamma[0]=drand48();
-	delta[0]=drand48();
+	alph[0]=drand48()*20;
+	beta[0]=drand48()*20;
+	gamma[0]=drand48()*20;
+	delta[0]=drand48()*20;
 
 	int i;
 	int j;
