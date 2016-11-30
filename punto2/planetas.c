@@ -55,7 +55,7 @@ int main()
 
 		for(j=0;j<8;j++)
 		{	
-			r[j]=log10(pow(x_0[j],2.)+pow(y_0[j],2.)+pow(z_0[j],2.));
+			r[j]=log10(pow(x_0[j],2.)+pow(y_0[j],2.)+pow(z_0[j],2.))*0.5;
 			vr[j]=log10(pow(vx_0[j],2.)+pow(vy_0[j],2.)+pow(vz_0[j],2.));
 
 			vn[j]=G+M_n-n_n*r[j];
