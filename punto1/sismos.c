@@ -30,8 +30,8 @@ int main()
 	double *tm=malloc(6*sizeof(double));
 	double *tm2=malloc(6*sizeof(double));
 
-	double delta_x=0.02;
-	double delta_y=0.01;
+	double delta_x=0.12;
+	double delta_y=0.1;
 	
 	double random;
 	
