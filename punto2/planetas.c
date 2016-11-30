@@ -61,8 +61,8 @@ int main()
 			vn[j]=G+M_n-n_n*r[j];
 			vold[j]=G+Msol[i-1]-n[i-1]*r[j];
 
-			p_new=p_new+pow(vr[j]-vn[j],2.)/0.02;			
-			p_old=p_old+pow(vr[j]-vold[j],2.)/0.02;
+			p_new=p_new+pow(vr[j]-vn[j],2.)/2;			
+			p_old=p_old+pow(vr[j]-vold[j],2.)/2;
 		}
 		p_new=exp(-p_new);
 		p_old=exp(-p_old);
