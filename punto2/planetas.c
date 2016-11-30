@@ -41,7 +41,7 @@ int main()
 	double random;
 
 	double d_n=0.01;
-	double d_M=0.01;
+	double d_M=0.04;
 	
 	double G=log10(pow(1.987980928,-29));
 
@@ -61,8 +61,8 @@ int main()
 			vn[j]=G+M_n-n_n*r[j];
 			vold[j]=G+Msol[i-1]-n[i-1]*r[j];
 
-			p_new=p_new+pow(vr[j]-vn[j],2.)/2;			
-			p_old=p_old+pow(vr[j]-vold[j],2.)/2;
+			p_new=p_new+pow(vr[j]-vn[j],2.)/0.02;			
+			p_old=p_old+pow(vr[j]-vold[j],2.)/0.02;
 		}
 		p_new=exp(-p_new);
 		p_old=exp(-p_old);
