@@ -20,7 +20,7 @@ int main()
 	n[0]=10*drand48();
 
 	double *Msol=malloc(N*sizeof(double));	
-	Msol[0]=10*drand48()+100;
+	Msol[0]=30+drand48()*30;
 
 	double *r= malloc(8*sizeof(double));
 	double *vr= malloc(8*sizeof(double));
