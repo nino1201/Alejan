@@ -35,8 +35,8 @@ int main()
 	
 	double random;
 	
-	x[0]=drand48()*5;
-	y[0]=drand48()*16;
+	x[0]=1+drand48()*3;
+	y[0]=5+drand48()*10;
 
 	for(i=1;i<N;i++)
 	{	x_n=x[i-1]+delta_x*(drand48()-0.5)*2.;
