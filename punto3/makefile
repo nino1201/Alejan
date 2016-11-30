@@ -1,6 +1,6 @@
-sismos.png: prob.py biologos.dat
+biologos.png: prob.py biologos.dat
 			python prob.py
-sismos.dat: biologos.c
+biologos.dat: biologos.c
 		gcc biologos.c -lm
 		./a.out > biologos.dat
 .PHONY: clean
