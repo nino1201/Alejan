@@ -43,7 +43,7 @@ int main()
 	double d_n=0.01;
 	double d_M=0.01;
 	
-	double G=log10(pow(1.19112883711,-27));
+	double G=log10(pow(1.987980928,-29));
 
 	for (i=1;i<N;i++)
 	{
